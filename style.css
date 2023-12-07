@@ -1,0 +1,431 @@
+
+/* Reglas de CSS para Maquetar una Pagina Basica con Estructura HTML5 y CSS*/
+/*Creado por Ing. Juancito Peña*/
+
+/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bleeding Cowboys', cursive;
+}
+
+/* 2DA Regla para el Body */
+
+body {
+  text-align: center;
+  background-color: #001F3F;
+}
+
+/* 3ERA Regla para el Contenedor de mi Pagina Web */
+
+.container {
+  width: 70%;
+  height: 100%;
+  color: black;
+  margin: 0px auto;
+  border-radius: 5px;
+  border: 5px solid #57606f;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* 4TA Regla para el Encabezado o Header */
+
+header{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  background-color:#dfe4ea;
+  width:100%;
+  height:100%;
+  line-height:50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header h1{
+  color: #4000FF;
+  font-size: 50px;
+}
+
+/*5TA REGLA */
+
+nav{
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  background-color:#a4b0be;
+  color: white;
+} 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del menú */
+
+ul {
+  list-style: none;
+  display: flex;
+ 
+}
+
+li {
+  margin-right: 20px;
+  margin-left: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: font-size 0.2s ease-in-out;
+}
+
+a:hover {
+  color: yellow;
+  background-color: #3e9df5;
+  font-size: 40px;
+}
+
+/* 6TA Regla */
+
+#contenido{
+  width:70%;
+  height:100%;
+  background-color:  #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height:100px;
+}
+/* 7MA Regla */
+
+.banner {
+  width:95%;
+  height:100%;
+  background-color: green;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-radius: 20px;
+  border: 5px solid black;
+  }
+
+
+article{
+  width:95%;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color:  #ffffff;
+} 
+
+/* 8VA Regla */
+
+#contenido h2{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+/* Estilo para el párrafo */
+p {
+
+font-size: 20px;
+line-height: 1.6;
+color: #333333;
+margin-bottom: 20px;
+text-align: justify;
+}
+/* 9NA Regla */ 
+
+aside{
+  width:29%;
+  height:100%;
+  background-color: #ffffff;
+  float: right;
+  margin-top: 10px;
+
+}
+
+/* 9NA Regla */
+
+aside h2{
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+.aside_texto {
+
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+aside img{
+width:80%;
+height:90%;
+background-color: green;
+margin: 0 auto;
+padding: 0 auto;
+border-radius: 20px;
+}
+
+.img_aside{
+  width:80%;
+  height:90%;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-radius: 20px;
+}
+
+.clearfix{
+  clear: both;
+} 
+
+/* Sectima Regla para el estiolo  del footer */
+
+footer{
+  background-color:#dfe4ea;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: black;
+  border-top: 1px solid black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* Regla para el estilo del movil de 300 a 768*/
+@media (max-width: 768px) and (min-width: 300px) {
+  
+/* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* 2DA Regla para el Body */
+  
+  body {
+  text-align: center;
+
+  background-color: #2f3542;
+  }
+  
+  /* 3ERA Regla para el Contenedor de mi Pagina Web */
+  
+  .container {
+  width: 95%;
+  height: 100%;
+  color: black;
+  margin: 0px auto;
+  border-radius: 5px;
+  border: 5px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ffffff;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  }
+  
+  /*5TA REGLA */
+  
+  nav{
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  background-color:#ffffff;
+  color: white;
+  } 
+  
+  /* 6TA Regla */
+  
+  #contenido{
+  width:100%;
+  height:100%;
+  background-color: #ffffff;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height:100px;
+  }
+  
+img {
+  width:80%;
+  height:90%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 auto;
+  border-radius: 20px;
+  border: 5px solid black;
+  }
+  aside{
+  width:100%;
+  height:100%;
+  background-color: #ffffff;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  }
+
+  aside img{
+    width:90%;
+    height:90%;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 20px;
+    }
+    footer{
+      background-color:#dfe4ea;
+      width: 100%;
+      height: 70px;
+      line-height: 70px;
+      text-align: center;
+      color: black;
+      border-top: 1px solid black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  
+}
+ 
+
+
+@media (max-width: 1024px) and (min-width: 769px) {
+   
+  /* 1ERA Regla Marenes 0 a todo el Body y su contenido, iniciamos en cero todo*/
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 2DA Regla para el Body */
+  
+  body {
+    text-align: center;
+
+    background-color: rgb(188, 163, 163);
+  }
+  
+  /* 3ERA Regla para el Contenedor de mi Pagina Web */
+  
+  .container {
+    width: 95%;
+    height: 100%;
+    color: black;
+    margin: 0px auto;
+    border-radius: 5px;
+    border: 5px solid #efe30a;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  
+  /*5TA REGLA */
+  
+  nav{
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    background-color:orange;
+    color: white;
+  } 
+  
+  /* 6TA Regla */
+  
+  #contenido{
+    width:100%;
+    height:100%;
+    background-color: rgb(65, 231, 87);
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height:100px;
+  }
+  img {
+    width:80%;
+    height:90%;
+    background-color: green;
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 20px;
+    border: 5px solid red;
+    }
+
+  aside{
+    width:100%;
+    height:100%;
+    background-color: green;
+    float: right;
+    margin-top: 10px;
+  
+  }
+
+
+  aside img{
+    width:100%;
+    height:90%;
+    background-color: green;
+    margin: 0 auto;
+    padding: 0 auto;
+    border-radius: 20px;
+    }
+
+    footer{
+      background-color:#dfe4ea;
+      width: 100%;
+      height: 70px;
+      line-height: 70px;
+      text-align: center;
+      color: black;
+      border-top: 1px solid black;
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  
+  }
+  
